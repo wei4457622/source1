@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body id="home">
+  
+    <!-- 進度條 -->
+    <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+    </div>
+
+    <div class="content">
+      <!-- 導覽列 -->
+      <nav id="navspy" class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">
+          <img class="logo-bg" src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto  nav-pills text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">關於我們</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#introduce">新鮮保證</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">本週推薦</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chef">我要購買</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">聯絡我們</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- 廣告圖片輪播 -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/banner/banner-1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block banner-block">
+                <h1>美味餐點</h1>
+                <p>家人、朋友分享的美食饗宴</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner/banner-2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block banner-block">
+                <h1>輕鬆環境</h1>
+                <p>吃飯就是要讓自己放鬆享受</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner/banner-3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block banner-block">
+                <h1>悠閒氣氛</h1>
+                <p>讓你捨不得回家的愉悅心情</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <div class="container-fluid">
+      <!-- 廣告大屏幕 -->
+        <div id="about" class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-3">幸福美味的定義</h1>
+            <p class="lead text-p">幸福在不同的人身上擁有著不同的定義，或許是生活的安逸富足，或許是精神上的安慰與喜悅，或許是一絲細微的溫暖，或許是一種自由奔放的灑脫。在我看來，幸福是一種靜靜的聆聽，一陣拂過心靈的清風。</p>
+          </div>
+        </div>      
+        <div class="row no-gutters food-bg">
+          <div class="col-sm-6 align-self-end">
+            <img src="images/food-1.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-6">
+            <div class="row no-gutters">
+              <div class="col-6">
+                <img src="images/food-2.png" class="img-fluid">
+              </div>
+              <div class="col-6">
+                <img src="images/food-3.jpg" class="img-fluid">
+              </div>
+              <div class="col-12">
+                <img src="images/food-4.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dark">
+          <div class="row align-items-center">
+            <div class="col">
+              <blockquote class="blockquote text-center">“不被時間和社會束縛，幸福地填飽肚子的時候，短時間他內變得隨心所欲，變得‘自由’，誰也別打擾，毫不費神地吃東西的這種孤高行為，只是這種行為能夠與現代人平等，能夠最大程度得到治愈。”<footer class="blockquote-footer">《孤獨的美食家》</footer></blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="introduce-bg1 d-none d-lg-block">
+          <div class="row">
+            <div class="col-4 ml-auto">
+              <img src="images/introduce-1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-4"><span class="block-title"> 請品嚐我們的美食。</span></div>
+          </div>
+        </div>
+      <!-- 新鮮保證 -->
+      <div id="introduce" class="row mtb-30">
+        <div class="col text-center">
+          <img src="images/introduce-title1.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="introduce-bg2">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="images/introduce-1.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text">精湛廚藝，一味入魂，食的藝術</div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="images/introduce-2.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text">動物友善，歡迎毛小孩與其他寵物</div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="images/introduce-3.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text">健康取向，好的食材、合理的價格</div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="images/introduce-4.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text">主廚當家，美味把關，道道精彩</div>
+        </div>
+      </div>
+
+      <!-- 本週推薦 -->
+      <div id="menu" class="row mtb-30">
+        <div class="col text-center">
+          <img src="images/introduce-title2.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row menu-row-bg">
+        <div class="col">
+          <table class="table  table-striped  table-bordered  table-hover  table-inverse menuTB mx-auto table-responsive">
+            <thead>
+              <tr>
+                <th class="text-center">精緻美食</th>
+                <th>品名</th>
+                <th>價格</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center"><img src="images/menu/menu-1.jpg" class="img-fluid"></td>
+                <td>蒜香炒帝王蟹腳
+              </td>
+                <td>1290元</td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/menu/menu-2.jpg" class="img-fluid"></td>
+                <td>九層塔蛤仔</td>
+                <td>200元</td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/menu/menu-3.jpg" class="img-fluid"></td>
+                <td>生鯖魚切片</td>
+                <td>550元</td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/menu/menu-4.jpg" class="img-fluid"></td>
+                <td>炒沙公</td>
+                <td>880元</td>
+              </tr>
+            </tbody>
+          </table> 
+         
+        </div>
+      </div>
+      <!-- 諾浩堅持 -->
+      <div class="row mtb-30">
+        <div class="col text-center">
+          <img src="images/introduce-title5.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 list-bg d-none d-md-block">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" data-toggle="list" id="list-home-list"  href="#list-home" role="tab" aria-controls="home">嚴選食材</a>
+            <a class="list-group-item list-group-item-action" data-toggle="list" id="list-profile-list" href="#list-profile" role="tab" aria-controls="profile">堅持手作</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list"  href="#list-messages" role="tab" aria-controls="messages">幸福體驗</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list"  href="#list-settings" role="tab" aria-controls="settings">忠於原味</a>
+          </div>
+        </div>
+        <div class="col-8 list-content-bg  d-none d-md-block">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">每項食材，皆採取每日限量的方式，所享用的不僅是當天現切直送的新鮮食材，並且維持一致的高水平。除了當季食材最鮮美之外，也是食材本身營養價值最高的時期。 所以說食物吃對季節，對身體自然也最好。 不過當季食材再美味，如果吃得不安心也沒意義。 所以「既對身體健康又能安心食用的鮮美食材」，才是我們眼中的逸品。</div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">所有料理發想，都是以天然原味為本，運用天然界不同食材特性，手作出一道道美味料理。這是純天然最有趣的挑戰，也是最大的變數，每道料理都是獨一無二的存在，無法100%複製。</div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">我們的料理就跟環境一樣，沒有炫目的噱頭，卻很溫和，很扎實，帶小巧思的料理佈置，讓人覺得充滿溫度。暈黃的光線透出溫馨的家庭氣息，用餐空間感覺得出歷史和復古風情，不新穎，卻溫暖而放鬆，很適合跟家人朋友一起來放鬆。
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">堅持不使用味精，純粹只以海鹽、胡椒來調味，並擅用食材味道特性，做出一道道自然風味的美味料理，更是堅持不加色素、香料、香精、防腐劑，而且當天現做現賣不放隔夜，完全純手工製作，這就是WeiYu給您的印象。</div>
+          </div>
+        </div>
+        <!-- 手機板的顯示 -->
+        <div class="list-group  d-sm-block d-md-none">
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">嚴選食材</h5>
+            </div>
+            <p class="mb-1">每項食材，皆採取每日限量的方式，所享用的不僅是當天現切直送的新鮮食材，並且維持一致的高水平。</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">堅持手作</h5>
+            </div>
+            <p class="mb-1">所有料理發想，都是以天然原味為本，運用天然界不同食材特性，手作出一道道美味料理。這是純天然最有趣的挑戰，也是最大的變數。</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">幸福體驗</h5>
+            </div>
+            <p class="mb-1">我們的料理就跟環境一樣，沒有炫目的噱頭，卻很溫和，很扎實，帶小巧思的料理佈置，讓人覺得充滿溫度。</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">忠於原味</h5>
+            </div>
+            <p class="mb-1">堅持不使用味精，純粹只以海鹽、胡椒來調味，並擅用食材味道特性，做出一道道自然風味的美味料理。</p>
+          </a>
+        </div>        
+      </div>     
+
+      <!-- 主廚介紹 -->
+      <div id="chef" class="row mtb-30">
+        <div class="col text-center">
+          <img src="images/introduce-title3.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div id="buystyle">
+        <div id="buylist">
+          <h1>線上計算您的價格</h1>
+          <div class="buy_item control_panel">
+            <label>產品名</label>
+            <input id="input_name" placeholder="名稱..."/>
+            <label>價錢</label>
+            <input id="input_price" placeholder="234..."/><span class="addbtn">+新增</span>
+          </div>
+          <div id="items_list"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="row w-80 mx-auto">
+        <div class="col-sm-12 col-md-4 mtb-35">
+          <figure class="figure">
+            <img src="images/chef/chef-1.jpg" class="img-fluid" alt="">
+          </figure>
+          <figcaption class="figure-caption text-right">行政主廚 - JOSH CLARK</figcaption>
+          
+        </div>
+        <div class="col-sm-12 col-md-4 mtb-35">
+          <figure class="figure">
+            <img src="images/chef/chef-2.jpg" class="img-fluid" alt="">
+          </figure>
+          <figcaption class="figure-caption text-right">第一主廚 - JOHN DOE</figcaption>
+        </div>
+        <div class="col-sm-12 col-md-4 mtb-35">
+          <figure class="figure">
+            <img src="images/chef/chef-3.jpg" class="img-fluid" alt="">
+          </figure>
+          <figcaption class="figure-caption text-right">首席主廚 - MARY JANE</figcaption>
+        </div>
+      </div> -->
+
+      <!-- 聯絡我們 -->
+      <div id="contact" class="row mtb-30">
+        <div class="col text-center">
+          <img src="images/introduce-title4.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <form  id="needs-validation" class="contact-form" novalidate>
+        <div class="container">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4" class="col-form-label sr-only">請輸入您的姓名</label>
+              <input type="text" class="form-control form-control-lg" id="inputEmail4" placeholder="請輸入您的姓名" required>
+              <div class="invalid-feedback">
+                Please enter your name
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4" class="col-form-label sr-only">請輸入您的手機</label>
+              <input type="text" class="form-control form-control-lg" id="inputPassword4" placeholder="請輸入您的手機">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress" class="col-form-label sr-only">請輸入您的Email</label>
+            <input type="email" class="form-control form-control-lg" id="inputAddress" placeholder="請輸入您的Email" required>
+            <div class="invalid-feedback">
+              Please enter your e-mail
+            </div>
+          </div>
+
+          <div class="form-group">
+              <label for="exampleFormControlSelect2" class="sr-only">詢問主題</label>
+              <select  class="form-control form-control-lg select-h90" id="exampleFormControlSelect2">
+                <option>請選擇</option>
+                <option>餐點</option>
+                <option>服務</option>
+                <option>環境</option>
+                <option>價格</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="sr-only">請輸入詢問內容</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="請輸入詢問內容" required></textarea>
+              <div class="invalid-feedback">
+                You need enter your question
+              </div>
+          </div>
+          <div class="row justify-content-center">
+            <button type="submit" class="btn btn-primary">送出</button>
+          </div>
+        </div>
+      </form>
+      <footer class="page-footer">
+        <div class="row">
+          <div class="col text-center">
+              Copyright © Wei-Yu. All rights reserved. 
+            </div>
+        </div>
+      </footer>
+
+      </div>
+    </div>
+    <div id="toTop"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">$('.custom-control-input').prop('indeterminate', true)</script>
+
+    <script>
+
+      //新增一個商品清單的物件
+      var shoplist={};
+      shoplist.name="MyBuylist 購物清單";
+      shoplist.time="2016/9/10";
+      //商品清單的清單裡面是個陣列，塞商品物件們
+      shoplist.list=[
+        {name: "炒沙公",price: 880},
+        {name: "生鯖魚切片",price: 550},
+        {name: "九層塔蛤仔",price: 200},
+        {name: "蒜香炒帝王蟹腳",price: 1290},
+        {name: "中卷酥炸拼盤",price: 620},
+        {name: "天使紅蝦20隻",price: 790}
+      ];
+
+
+      //定義元素用的html模板，{{名稱}}代表要套入的地方
+      var item_html="<li id={{id}} class='buy_item'>{{num}}.{{item}}<div class='price'>{{price}}</div><div id={{del_id}} data-delid={{del_item_id}} class='del_btn'>X</div></li>";
+
+      var total_html="<li class='buy_item total'>總價<div class='price'>{{price}}</div></li>";
+
+      //刪除並重新產生清單中所有項目
+      function showlist(){
+        $("#items_list").html("");
+        var total_price=0;
+        //把每個項目做出來
+        for(var i=0;i<shoplist.list.length;i++){
+          var item=shoplist.list[i];
+          var item_id="buyitem_"+i;
+          var del_item_id="del_buyitem_"+i;
+          
+          //動態統計總價(每一項跑時加上去)
+          total_price+=parseInt(item.price);
+          
+          //取代模板位置成資料replace(要取代的,取代成...)
+          var current_item_html=
+              item_html.replace("{{num}}",i+1)
+                       .replace("{{item}}",item.name)
+                       .replace("{{id}}",item_id)
+                       .replace("{{del_id}}",del_item_id)
+                       .replace("{{price}}",item.price)
+                       .replace("{{del_item_id}}",i)
+
+          ;
+          
+          //加入元素後才能夠用jquery操作
+          $("#items_list").append(current_item_html);
+          $("#"+del_item_id).click(
+            function(){
+              remove_item(parseInt($(this).attr("data-delid")));
+            }
+          );
+        }
+        //新增總價那一欄
+        var current_total_html=
+            total_html.replace("{{price}}",total_price);
+        $("#items_list").append(current_total_html);
+      }
+      //先顯示一次，因為前面只定義好function 還沒有執行
+      showlist();
+
+      // 新增資料流程: 動態push一筆資料->呼叫showlist重新渲染清單
+      $(".addbtn").click(
+        function(){
+          //使用val()存取輸入的值，val("..") 有給參數是設定
+          shoplist.list.push(
+            {
+              name:$("#input_name").val(),
+              price: $("#input_price").val()
+            }
+          );
+          $("#input_name").val("");
+          $("#input_price").val("");
+          showlist();
+        }
+        
+      );
+
+      //刪除項目 陣列.splice(位置,長度) 
+      //刪除資料->重新根據資料渲染清單
+      function remove_item(id){
+        shoplist.list.splice(id,1);
+        showlist();
+      }
+
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        "use strict";
+        window.addEventListener("load", function() {
+          var form = document.getElementById("needs-validation");
+          form.addEventListener("submit", function(event) {
+            if (form.checkValidity() == false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add("was-validated");
+          }, false);
+        }, false);
+
+        //頁面載入進度條的效果
+        $(".progress").fadeOut(2000,function(){
+          $(".content").fadeIn(1000);
+        })
+
+        //列表群組控制
+        $('#list-tab a').click(function (e) {
+          e.preventDefault()
+          $(this).tab('show')
+        })
+        //指定哪個列表內容出現
+        $('#list-tab a:last').tab('show')
+
+
+        //選單滑動監聽
+        $('body').scrollspy({ target: '#navspy', offset:100 })
+
+
+        //導覽列背景效果
+        $(document).scroll(function() { //開始捲動
+
+            if ($(this).scrollTop()) { //如果捲軸拉到了最上方，按鈕淡出
+                $('#toTop').fadeIn();
+            } else {//如果捲軸拉開了最上方，按鈕淡入
+                $('#toTop').fadeOut();
+            }
+
+
+            if($(this).scrollTop() > ($("#about").offset().top)-73) { //如果視窗的捲動到了#about區塊的上方
+                
+                $("#navspy").css('transition', 'background 0.5s linear');//背景顏色淡入
+                $("#navspy").css('background-color', 'rgba(70, 70, 70, 0.6)');
+             } else {//如果視窗的捲動沒有到了#about區塊的上方
+                $("#navspy").css('background-color', '#0B2626');
+                
+             }
+        });
+
+        //點選按鈕頁面自動捲到最上方
+        $("#toTop").click(function () {
+           $("html, body").animate({scrollTop: 0}, 600);
+        });
+
+        //選單點選滑動效果開頭
+        $("#navspy li a[href^='#']").on('click', function(e) {
+
+          // hash是設定連結#字後面的文字內容
+          var target;
+          target = this.hash;
+
+          // 連結效果取消
+          e.preventDefault();
+
+          // 將導覽列的高度儲存在navOffset變數裡
+          var navOffset;
+          navOffset = $('#navspy').height();
+
+          // 捲軸滑動開始
+          $('html, body').animate({
+              scrollTop: $(this.hash).offset().top - navOffset
+          }, 600, function(){
+
+          // 增加#字後面的文字內容到URL的最後面
+          return window.history.pushState(null, null, target);
+
+          });
+
+        });
+        //選單點選滑動效果結尾
+
+
+
+
+      }());
+    </script>
+  </body>
+</html>
